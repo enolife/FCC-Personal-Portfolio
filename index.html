@@ -15,10 +15,10 @@
     <nav id="navbar">
         <img src="https://res.cloudinary.com/dvhndpbun/image/upload/e_bgremoval/v1586611518/logo_black.png" alt="logo">
         <ul class="nav-items">
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
 
@@ -34,7 +34,7 @@
             <p>Hi, my name is</p>
             <h1>Enouwem <span class="blue_text">Jim</span></h1>
             <p>And i am a Web Developer</p>
-            <a href="" class="btn">Projects</a>
+            <a href="" class="btn projects-btn">Projects</a>
 
         </div>
     </section>
@@ -46,53 +46,78 @@
 
         <div class="project_content">
             <article>
-                <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586635858/product_landing_page.png"
-                    alt="product landing page image">
+                <a href="https://enolife.github.io/Product-Landing-Page/" target="_blank" rel="noopener noreferrer">
+                    <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586635858/product_landing_page.png"
+                        alt="product landing page image">
+                    <p class="project-title">Product Landing Page</p>
+                </a>
             </article>
             <article>
-                <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586636436/survey_form.png"
-                    alt="survey form image">
+                <a href="https://enolife.github.io/Responsive-Design-Survey-Form/survey_form.html" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586636436/survey_form.png"
+                        alt="survey form image">
+                    <p class="project-title">Survey Form</p>
+                </a>
             </article>
             <article>
-                <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586637174/technical_documentation.png"
-                    alt="technical doumentation page image">
+                <a href="https://enolife.github.io/Technical-Documentation-Page/" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586637174/technical_documentation.png"
+                        alt="technical doumentation page image">
+                    <p class="project-title">Technical Documentation Page</p>
+                </a>
             </article>
             <article>
-                <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586637720/ludo_ui.png"
-                    alt="ludo game image">
+                <a href="https://enolife.github.io/Web-Development-Playground/Css%20Grid%20-%20Ludo%20Game%20UI/index.html"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586637720/ludo_ui.png"
+                        alt="ludo game image">
+                    <p class="project-title">Ludo Game UI</p>
+                </a>
             </article>
             <article>
-                <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586638138/neumorphism_ui.png"
-                    alt="neumorphism user interface image">
+                <a href="https://enolife.github.io/Web-Development-Playground/Neumorphism_UI/" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586638138/neumorphism_ui.png"
+                        alt="neumorphism user interface image">
+                    <p class="project-title">Neumorphism UI</p>
+                </a>
             </article>
             <article>
-                <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586638577/tribute_page.png"
-                    alt="tribute page image">
+                <a href="https://enolife.github.io/Responsive-Web-Design-Tribute-Page/tribute.html" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="https://res.cloudinary.com/dvhndpbun/image/upload/q_auto:eco/v1586638577/tribute_page.png"
+                        alt="tribute page image">
+                    <p class="project-title">Tribute Page</p>
+                </a>
             </article>
         </div>
-        <a href="" class="btn projects-btn">View more Projects ▶</a>
+        <a href="" class="btn more-projects_btn">View more Projects &nbsp; ▶</a>
     </section>
 
     <footer>
-        <h3>CONTACT</h3>
+        <h3 id="contact">CONTACT</h3>
         <p>Get in touch with me on the following channels...</p>
 
 
         <ul class="social-networks">
-            <span>
+            <span class="twitter_link">
                 <a href="https://www.twitter.com/">
                     <li class="fab fa-twitter"></li>Twitter
                 </a>
             </span>
 
-            <span><a href="https://www.facebook.com/">
+            <span class="facebook_link"><a href="https://www.facebook.com/">
                     <li class="fab fa-facebook"></li>Facebook
                 </a></span>
 
-            <span><a href="https://www.github.com/">
-                    <li class="fab fa-github"></li>Github
+            <span class="github_link"><a id="profile-link" href="https://www.github.com/enolife" target="_blank"
+                    rel="noopener noreferrer"">
+                    <li class=" fab fa-github"></li>Github
                 </a></span>
         </ul>
+
     </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
