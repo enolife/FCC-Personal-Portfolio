@@ -36,12 +36,14 @@ p {
 #navbar {
     display: grid;
     position: fixed;
+    align-items: center;
     justify-items: end;
-    grid-template-columns: auto 2fr;
-    width: 99.5%;
+    grid-template-columns: auto 1fr;
+    width: 100%;
     background: #fff;
     color: #000;
     top: 0;
+    border-right: 8px solid;
     border-top: 4px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #12c2e9, #c471ed, #f64f59, #12c2e9);
@@ -51,12 +53,12 @@ p {
 #navbar img {
     height: auto;
     width: 100px;
-    margin-top: 10px;
 }
 
 .nav-items {
     display: flex;
-    margin: 0;
+    margin: 0 80px 0 0;
+    padding: 0;
 }
 
 .nav-items li {
@@ -255,6 +257,22 @@ footer p {
     }
 
 
+    #navbar img {
+        width: 60px;
+    }
+
+    .nav-items {
+        margin: 0;
+    }
+
+    .nav-items li {
+        padding: 8px 10px 8px;
+    }
+
+    .nav-items li:hover {
+        padding: 7px 9px 7px;
+    }
+
     #welcome-section {
         grid-template-columns: 1fr;
     }
@@ -275,6 +293,8 @@ footer p {
 
     .welcome-text_container {
         align-content: start;
+        justify-content: center;
+        margin-left: 30px;
     }
 
     .welcome-text_container h1 {
@@ -286,7 +306,7 @@ footer p {
     }
 
     .project-text_container {
-        padding: 0 0 20px;
+        padding: 50px 0 20px;
     }
 
     .project_content {
@@ -302,6 +322,9 @@ footer p {
         padding: 10px 30px;
     }
 
+    .projects-btn:hover {
+        padding: 8px 28px;
+    }
 
     footer {
         padding: 40px 10px;
