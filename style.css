@@ -17,7 +17,6 @@ body {
     border: 4px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
-
 }
 
 a {
@@ -33,6 +32,7 @@ p {
     font-size: 1.2rem;
 }
 
+/* Navbar */
 #navbar {
     display: grid;
     position: fixed;
@@ -48,7 +48,6 @@ p {
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #12c2e9, #c471ed, #f64f59, #12c2e9);
 }
-
 
 #navbar img {
     height: auto;
@@ -77,6 +76,8 @@ p {
     padding: 29px 19px 19px;
 }
 
+
+/* Welcome Section */
 #welcome-section {
     background: linear-gradient(to right, #212020, #020013);
     display: grid;
@@ -151,7 +152,8 @@ p {
     color: #fff;
 }
 
-/* Projects */
+
+/* Projects  Section*/
 
 #projects {
     text-align: center;
@@ -204,6 +206,7 @@ p {
     color: #000;
 }
 
+/* Footer */
 footer {
     text-align: center;
     background-color: #000;
@@ -227,7 +230,6 @@ footer p {
     padding: 0 20px;
     margin-bottom: 30px;
     white-space: nowrap;
-
 }
 
 .social-networks li {
@@ -249,13 +251,11 @@ footer p {
 
 /* Media Queries */
 
-
 @media (max-width: 576px) {
 
     p {
         font-size: .9rem;
     }
-
 
     #navbar img {
         width: 60px;
@@ -329,7 +329,6 @@ footer p {
     footer {
         padding: 40px 10px;
     }
-
 
     .social-networks span {
         padding: 0 10px;
