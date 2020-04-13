@@ -64,7 +64,7 @@ p {
     padding: 30px 20px 20px;
 }
 
-.nav-items li:nth-child(1) {
+.nav-items a:nth-child(1) {
     background: linear-gradient(to top, #90a4b5, #1a2248);
     color: #fff;
 }
