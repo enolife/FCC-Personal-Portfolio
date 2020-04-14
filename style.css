@@ -89,10 +89,33 @@ p {
     display: grid;
     height: 17rem;
     width: 17rem;
-    border: 2px dashed #5accd2;
     background: #2b2a2a;
     border-radius: 100vh;
     align-items: center;
+    position: relative;
+}
+
+.image_wrapper-transparent {
+    height: 17rem;
+    width: 17rem;
+    border: 2px dashed #5accd2;
+    border-radius: 100vh;
+    position: absolute;
+}
+
+.image_wrapper-transparent:hover {
+    animation: rotation 15s infinite linear;
+
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
 }
 
 .image_wrapper img {
