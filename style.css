@@ -314,6 +314,11 @@ footer p {
         width: 13rem;
     }
 
+    .image_wrapper-transparent {
+        height: 13rem;
+        width: 13rem;
+    }
+
     .welcome-text_container {
         align-content: start;
         justify-content: center;
