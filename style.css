@@ -47,6 +47,7 @@ p {
     border-top: 4px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #12c2e9, #c471ed, #f64f59, #12c2e9);
+    z-index: 1;
 }
 
 #navbar img {
@@ -92,7 +93,6 @@ p {
     background: #2b2a2a;
     border-radius: 100vh;
     align-items: center;
-    position: relative;
 }
 
 .image_wrapper-transparent {
